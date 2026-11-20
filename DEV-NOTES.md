@@ -28,7 +28,7 @@ Search = 3000 sims per throw (~30 ms on x86), run 220 per frame so it never stal
 ## Not done / open
 - Not device-tested (display, pad, audio, perf of the bot search on the 74kc).
 - Licence of our code not decided; no collection entry/PR yet; no NOTICE/CREDITS files beyond README.txt.
-- Box art is ours (tools/make_boxart.py); card needs sync-boxart.sh after copying (boxart.png -> .res/Gorillas.png).
+- Box art: the port author's floppy-disk illustration (500x500 downscale of the 1254 master, kept outside the repo); tools/make_boxart.py made the earlier plain version. Card needs sync-boxart.sh after copying (boxart.png -> .res/Gorillas.png).
 
 ## Gravity worlds (2026-11-18)
 Ten worlds in game.c k_grav (Mercury 3.7, Venus 8.9, Earth 9.8, Moon 1.6, Mars 3.7, Jupiter 24.8, Saturn 10.4, Uranus 8.9,
