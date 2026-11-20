@@ -9,7 +9,7 @@ The original game is kept outside this repository as a behaviour reference only;
 - src/game.c   menus, turn flow (phases PH_*), HUD, config (gorillas.txt), test hooks, bot_test
 - src/world.c  skyline, terrain mask, craters, shot physics (shot_step is shared by game and bot)
 - src/bot.c    5 levels (Cub..Silverback): search by simulation + error + wind knowledge + learn-from-miss
-- src/osk.c    on-screen numeric keypad / alphanumeric keyboard (modelled on Block Dude's)
+- src/osk.c    on-screen numeric keypad / alphanumeric keyboard
 - src/art.c, sound.c, gfx.c, font8x8.h (public domain)
 - src/plat_sdl.c   SF3500 (-DSF3500: hwdisp/joykey/sf3500_mixer in plat/) and desktop SDL2 window
 - build_host.sh -> build-host/gorillas;  build_sf3500.sh -> build-sf3500/;  package.sh -> package/
@@ -54,7 +54,7 @@ Harbor (night quay, lighthouse, water reflections). `theme=` in gorillas.txt (na
   the HUD no longer fills the strip, it shows what the theme painted. Buildings are drawn into W.pic (terrain mask untouched).
 - Roof ornaments (water tower, chimneys, aerial, spire) are tracked per pixel (g_deco) and vanish with their roof; street furniture
   (trees, lamps, stalls, barrels...) is redrawn after each crater (it stands in front of the wall).
-- Concept pictures in Custom/Concepts are design reference only (AI-generated; nothing embedded), as with SkiFree.
+- Concept pictures in Custom/Concepts are design reference only (AI-generated; nothing embedded).
 - QEMU vs host: all four themes max diff 1 after 1500 frames of CPU-vs-CPU. Test hooks: GOR_THEME=<0..3>, GOR_BOXART=4 (Game Over panel).
 
 ## Q-BASIC theme (2026-11-19)
