@@ -95,10 +95,13 @@ FILES
 gorillas.txt    your settings (written by the menu; delete it to reset)
 log.txt         what the game printed on its last run
 
-CREDITS
--------
-Game, art, sounds and computer players: the port author.
-Inspired by "Gorillas" (QBasic, Microsoft, 1990).
+CREDITS AND LICENCE
+-------------------
+Gorillas for the Data Frog SF3500: game, art, sounds and computer players by
+the port author (AthruZ / Kryptikone316), MIT licence (licenses/LICENSE.txt in
+the Ports Collection, LICENSE in the source repository).
+Inspired by "Gorillas" (QBasic, Microsoft, 1990). Not affiliated with or
+endorsed by Microsoft; it contains none of their code, pictures or sounds.
 Font: font8x8 by Daniel Hepper (public domain).
 Display, gamepad and audio glue for the SF3500 derived from TreeFrogUI's
 pico286 SF3000 patch.
